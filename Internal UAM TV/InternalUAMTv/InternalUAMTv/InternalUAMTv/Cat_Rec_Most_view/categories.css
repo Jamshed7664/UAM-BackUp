@@ -1,0 +1,226 @@
+  body {
+      font-size: 36px;
+      color: white;
+      background: linear-gradient(rgba(21, 9, 36, 1), rgba(20, 9, 34, .7), rgba(21, 9, 36, .7)), black;
+      background-repeat: no-repeat;
+      height: 200vh;
+      overflow: auto;
+  }
+  header {
+      width: 100%;
+      font-size: 42px;
+      background: linear-gradient(#150924, #130921);
+      height: 119px;
+      position: fixed;
+      z-index: 2;
+      top: 0;
+      padding: 18px 8px 0px 18px;
+      box-shadow: 1px 6px 5px -2px rgb(8, 4, 12);
+  }
+  header img {
+      height: 55px;
+      margin-top: 33px;
+      position: absolute;
+      top: 1%;
+      left: 1%;
+  }
+  header nav {
+      font-size: 32px;
+      color: white;
+      float: right;
+  }
+  header nav ul li {
+      display: inline-block;
+      padding: 18px 18px;
+      border-radius: 50%;
+      background-color: #291b3c;
+      margin-right: 10px;
+  }
+  #fa-user,
+  #fa-wifi,
+  #fa-bell {
+      width: 50px;
+      height: 40px;
+      text-align: center;
+  }
+  header nav ul li:nth-child(2) {
+      position: relative;
+  }
+  #badge {
+      position: absolute;
+      right: 7px;
+      top: 3px;
+      border-radius: 50%;
+      background: red;
+      font-size: 21px;
+  }
+  .user_name {
+      position: relative;
+      right: 5px;
+  }
+  header nav ul li:hover {
+      display: inline-block;
+      padding: 18px 18px;
+      color: rgba(255, 132, 0, 1)
+  }
+  .card {
+      position: relative;
+      border: none !important;
+      background: black;
+      width: 26rem;
+      margin: 32px;
+      height: 289px;
+  }
+  .card-img-top {
+      height: 100% !important;
+  }
+  .cat_name {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      text-align: center;
+      color: white;
+      font-size: 30px;
+  }
+  .cat_heading {
+      font-size: 41px;
+      margin: 49px 0 0 -8px;
+      color: white;
+  }
+  .row {
+      margin-right: 57px !important;
+      margin-left: 11px !important;
+  }
+  .user_name {
+      position: relative;
+      right: 5px;
+  }
+  /*Notification syle*/
+  .sidenav {
+      right: 0px;
+      position: fixed;
+      right: 0;
+      top: 124px;
+      z-index: 5;
+      height: 100%;
+      width: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+  }
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+      transition: 0.4s;
+  }
+  .sidenav a:hover {
+      color: #f1f1f1;
+  }
+  .notification_header {
+      color: white;
+      font-weight: 509px;
+      background: #160926;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 2px;
+      font-size: 34px;
+      font-weight: 700;
+      box-shadow: 1px 6px 5px -2px rgb(8, 4, 12);
+      height: 112px;
+      z-index: 12;
+  }
+  .no_notification {
+      color: white;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      font-size: 151px;
+      background: #12091E;
+  }
+  h2 {
+      position: absolute;
+      font-size: 31px;
+  }
+  .fa_bell {
+      position: relative;
+      top: -22%;
+      background: gray;
+      border-radius: 50%;
+      height: 209px;
+      width: 209px;
+      text-align: center;
+      margin-top: 4px;
+      font-size: 145px;
+  }
+  .fa-arrow-left:hover {
+      color: rgba(255, 132, 0, 1);
+  }
+  
+  .hover-left-arrow {
+      color: rgba(255, 132, 0, 1);
+  }
+  
+  .no-notification {
+      position: relative;
+      bottom: 16%;
+  }
+  /*Network and internet section style*/
+  .network_header {
+      color: white;
+      font-weight: 509px;
+      background: #160926;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-left: 2px;
+      font-size: 34px;
+      font-weight: 700;
+      box-shadow: 1px 6px 5px -2px rgb(8, 4, 12);
+      height: 112px;
+      z-index: 12;
+  }
+  .avail_network {
+      font-weight: bold;
+      font-size: 25px;
+      color: rgba(255, 132, 0, 1);
+      padding: 31px;
+      background: #12091E;
+  }
+  .avail_network_body {
+      height: 100vh;transform: scale(1.1);
+      background: #12091E;
+      color: white;
+      font-size: 26px;
+      padding-left: 8px;
+      padding-right: 28px;
+  }
+  .wifi_icon {
+      font-size: 34px;
+  }
+  .wifi_name {
+      font-size: 27px;
+      position: relative;
+      top: -7px;
+  }
+  .conented_wifi_txt {
+      font-size: 21px;
+      position: absolute;
+      left: 2%;
+  }
+  .lock_icon {
+      color: white;
+  }
+  .cardhover{
+  	transform: scale(1.1);
+    transition: 0.3s;  	
+  	
+  }
+  
